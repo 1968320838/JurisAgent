@@ -1,0 +1,14 @@
+# Prompts Module
+"""
+提示词模板模块
+"""
+
+from .contract_review import CONTRACT_REVIEW_SYSTEM_PROMPT, CONTRACT_REVIEW_USER_PROMPT
+from .legal_qa import LEGAL_QA_SYSTEM_PROMPT, LEGAL_QA_USER_PROMPT
+
+__all__ = [
+    "CONTRACT_REVIEW_SYSTEM_PROMPT",
+    "CONTRACT_REVIEW_USER_PROMPT",
+    "LEGAL_QA_SYSTEM_PROMPT",
+    "LEGAL_QA_USER_PROMPT",
+]
