@@ -12,7 +12,7 @@ load_dotenv()
 # API配置
 API_CONFIG = {
     "api_key": os.environ.get("ZHIPU_API_KEY", ""),  # 从环境变量读取，或直接填写
-    "model": "GLM-4.7",  # GLM-4 Plus 模型
+    "model": "GLM-4.7",  # GLM-4.7 模型
     "timeout": 120,         # 请求超时时间（秒）
     "max_retries": 3,       # 最大重试次数
     "retry_delay": 2        # 重试间隔（秒）
